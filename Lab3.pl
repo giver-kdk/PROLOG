@@ -1,3 +1,4 @@
+# Own Parent Testing including siblings 
 male(sam).
 male(jagat).
 male(bharat).
@@ -30,4 +31,7 @@ parent(raju, rajal).
 parent(raju, rebika).
 parent(prava, rajal).
 parent(prava, rebika).
+mother(M, C):-parent(M, C), female(M).
+grandparent(GP, GC):-parent(X, GC), parent(GP, X).
 sibling(X, Y):-parent(Z, X), parent(Z, Y), X\==Y.
+
