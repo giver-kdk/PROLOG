@@ -1,0 +1,4 @@
+# Ancestor problem in prolog
+# To run the Prolog code: swipl -s program_name.pl
+# "X\==Y" means not identical
+# ";" means "OR" operation

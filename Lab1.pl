@@ -1,4 +1,4 @@
-# Simple boy girl testing
+# Prolog Basic Predicate
 boy(ram).
 boy(shyam).
 boy(smith).
